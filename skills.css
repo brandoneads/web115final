@@ -1,0 +1,100 @@
+/*This gets rid of the default margins so my navigation menu is flush.*/
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*This is my image for the background of my about page and fonts. 
+  I also added some cms to get the image to line up properly on all resolutions*/
+  body {
+    background: url(pexels-francesco-ungaro-96446.jpg)no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 1em;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    line-height: 1.4;
+  }
+  
+  /*background color for navigation menu*/
+  ul {
+    background-color: lightgray;
+    overflow: hidden;
+  }
+  
+  /*styling for navigation menu*/
+  ul li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /*text styling for navigation menu*/
+  ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    text-shadow:  0.07em 0 white,
+    0 0.07em white,
+    -0.07em 0 white,
+    0 -0.07em white;
+  }
+  
+  /*hover feature for navigation menu*/
+  ul li a:hover {
+    background-color: white;
+  }
+  
+  /*styling for header of my clock*/
+  h1{
+    color: white;
+    text-align: right;
+    text-shadow: red 2px 2px 20px;
+  }
+  
+  /*styling for date and time of my clock*/
+  #currentDate, #currentTime{
+    color: white;
+    text-align: right;
+    text-shadow: red 2px 2px 20px;
+  }
+  
+
+  /*styling for about me header*/
+  h4{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    text-shadow:  0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+  }
+  
+  /*styling for bio paragraph*/
+  ol li{
+    font-size: 20px;
+    color: black;
+    display: list-item;
+    list-style-position: inside;
+    padding-right: 500px;
+    padding-left: 50px;
+    text-shadow:  0.05em 0 white,
+    0 0.05em white,
+    -0.05em 0 white,
+    0 -0.05em white,
+    -0.05em -0.05em white,
+    -0.05em 0.05em white,
+    0.05em -0.05em white,
+    0.05em 0.05em white;
+  }  
+  
+  

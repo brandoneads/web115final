@@ -1,0 +1,108 @@
+/*This gets rid of the default margins so my navigation menu is flush.*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*This is my image for the background of my contact page and fonts. 
+  I also added some cms to get the image to line up properly on all resolutions*/
+body {
+  background: url(pexels-reynaldo-brigworkz-brigantty-747114.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.4;
+}
+
+/*background color for navigation menu*/
+ul {
+  background-color: lightgray;
+  overflow: hidden;
+}
+
+/*styling for navigation menu*/
+ul li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*text styling for navigation menu*/
+ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  text-shadow:  0.07em 0 white,
+  0 0.07em white,
+  -0.07em 0 white,
+  0 -0.07em white;
+}
+
+/*hover feature for navigation menu*/
+ul li a:hover {
+  background-color: white;
+}
+
+/*styling for header of my clock*/
+h1{
+  color: black;
+  text-align: right;
+}
+
+/*styling for date and time of my clock*/
+#currentDate, #currentTime{
+  color: black;
+  text-align: right;
+}
+
+/*styling for my form hearder*/
+h4{
+  padding-left: 50px;
+}
+
+/*styling for required section*/
+p{
+  padding-left: 50px;
+}
+
+/*styling for submit button*/
+input[type="submit"] {
+  border-radius: 30px;
+  display: block;
+  font-size: 1.1em;
+  height: 30px;
+  width: 150px;
+  background-color: black;
+  color: white;
+}
+
+/*flexbox styling*/
+div.formBubble{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row-wrap;
+  flex-flow: row-wrap;
+  margin: 7px 0px;
+  width: 500px;
+}
+
+/*flexbox styling for child objects*/
+div.formBubble > *{
+  -webkit-flex: 1 1 150px;
+  flex: 1 1 150px;
+  clear: left;
+  text-align: center;
+  padding-top: 40px;
+  display: block;
+  margin: 5px 0px;
+}
+
+/*positioning for button*/
+.button{
+  padding-left: 300px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--links to my code and css. The fonts is for my poppins google font I added to use on my navigation menu-->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Contact me</title>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <link href="contactme.css" rel="stylesheet" />
+   <script src = "code.js"></script>
+</head>
+<body>
+   <nav class= "topnav" id= "myTopnav">
+      <ul>
+         <!--Used strong to make my nav items bold so they stand out-->
+         <li><a href = "index.html"><strong>Home</strong></a></li>
+         <li><a href = "Brandon Eads - Resume 2021.docx"><strong>Resume</strong></a></li>
+         <li><a href = "about.html"><strong>About</strong></a></li>
+         <li><a href = "skills.html"><strong>Skills</strong></a></li>
+         <li><a href = "contactme.html"><strong>Contact</strong></a></li>
+     </ul>
+  </nav>
+  <!--header and ids for my clock-->
+   <h1>Date and Time</h1>
+    <div>
+        <h3 id = "currentDate"></h3>
+        <h2 id = "currentTime"></h2>
+    </div>
+   <section>
+      <div class = "formBubble"></div>
+         <h4>Please fill out your information here and I will get back with you as soon as possible.</h4>
+         <p>Required Item (*)</p>
+      </div> 
+      <!--html for contact form-->
+      <form id = "contactform"  method = "post">
+      <!--div for flexbox-->
+      <div class = "formBubble">
+        <label for ="fnBox">First Name*</label>
+        <input name = "firstName" id = "fnBox" type = "text" required />
+      </div> 
+      
+      <div class = "formBubble">
+        <label for="lnBox">Last Name*</label>
+        <input name = "lastName" id = "lnBox" type= "text" required />
+      </div> 
+
+      <div class = "formBubble">
+        <label for="addBox">Address*</label>
+        <textarea name = "address" id = "addBox" required ></textarea>
+      </div> 
+
+      <div class = "formBubble">
+        <label for="groupBox">Company*</label>
+        <input name = "group" id = "groupBox" type= "text" required/>
+      </div>  
+        
+      <div class = "formBubble">
+        <label for="mailBox">E-Mail*</label>
+        <input name = "email" id = "mailBox" type= "email" required s/>
+      </div> 
+
+
+        <p class = "button"><input type = "submit" value = "submit" /></p>
+
+      </form>
+   </section>
+</body>
+</html>
